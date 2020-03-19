@@ -1,0 +1,102 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: #8baabd;
+  color:black;
+}
+
+.nav-link {
+  color:black;
+  float left;
+}
+
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+
+#navbar-item
+{
+  float:right;
+}
+
+#dropdown
+{
+  float:right;
+}
+
+#dropdown-menu
+{
+  float:right;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: black;
+}
+
+.span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+}
+
+.parent
+{
+	width:100%;
+}
+
+.left
+{
+	float:left;
+	width:70%;
+	box-sizing:border-box;
+	padding:5px;
+	border:#CCC solid 1px;
+	min-height:200px;
+}
+
+.right
+{
+	float:left;
+	width:30%;
+	box-sizing:border-box;
+	padding:5px;
+	border:#CCC solid 1px;
+	min-height:200px;
+}
